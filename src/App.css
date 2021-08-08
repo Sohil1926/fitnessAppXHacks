@@ -18,7 +18,7 @@ button:hover {
 }
 
 .App-header {
-  background-color: #f36825;
+  background-color: #0379f8;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@ h2.label {
 
 .webcamBtn {
   padding: 10px 15px;
-  color: #f36825;
+  color: #0379f8;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -69,5 +69,5 @@ h2.label {
 
 .top-banner-label:hover {
   cursor: pointer;
-  color: #f36825;
+  color: #0379f8;
 }

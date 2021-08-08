@@ -59,15 +59,11 @@ function App() {
 
       const LOWEST_SCORE = 0.1;
 
-      if (
-        nose.score < LOWEST_SCORE &&
-        l_eye.score < LOWEST_SCORE &&
-        r_eye.score < LOWEST_SCORE
-      ) {
-        setUserInFrame(false);
-      } else {
-        setUserInFrame(true);
-      }
+      nose.score < LOWEST_SCORE &&
+      l_eye.score < LOWEST_SCORE &&
+      r_eye.score < LOWEST_SCORE
+        ? setUserInFrame(false)
+        : setUserInFrame(true);
 
       drawCanvas(pose, video, videoWidth, videoHeight, canvasRef);
     }
@@ -89,7 +85,7 @@ function App() {
 
   return (
     <div className='App'>
-      <h1 style={{ color: '#f36825' }}>FitnessFlow</h1>
+      <h1 style={{ color: '#0379F8' }}>FitnessFlow</h1>
       <p
         className='top-banner-label'
         onClick={() => (window.location = 'https://xhacks.live')}
