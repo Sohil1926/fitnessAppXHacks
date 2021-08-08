@@ -44,7 +44,7 @@ button:hover {
 h2.label {
   color: #fff;
   position: absolute;
-  bottom: 40px;
+  bottom: 120px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -55,7 +55,7 @@ h2.label {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 15px;
+  bottom: 95px;
   border: none;
   background: white;
   border-radius: 20px;
